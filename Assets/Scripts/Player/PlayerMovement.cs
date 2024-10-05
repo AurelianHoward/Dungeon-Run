@@ -23,11 +23,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Walk()
     {
-        MyRigidBody.velocity = movedirection * MoveSpeed * Time.deltaTime;
+        MyRigidBody.linearVelocity = movedirection * MoveSpeed * Time.deltaTime;
     }
 
     private void Update()
     {
-        Walk();-
+        Walk();
     }
 }
