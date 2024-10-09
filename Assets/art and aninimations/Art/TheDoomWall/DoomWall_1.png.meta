@@ -199,7 +199,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DoomWall_1_0: 7385248995494484042
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
