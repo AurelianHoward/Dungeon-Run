@@ -7,10 +7,10 @@ using UnityEngine.Lumin;
 public class PlayerMovement : MonoBehaviour
 {
     Vector2 movedirection;
-    [SerializeField] float MoveSpeed = 10;
+    [SerializeField] float MoveSpeed = 700;
     private Rigidbody2D MyRigidBody;
     [SerializeField] private SpriteRenderer SR;
-    [SerializeField] float Jumpforce = 1000;
+    [SerializeField] float Jumpforce = 600;
     private void Awake()
     {
         MyRigidBody = GetComponent<Rigidbody2D>();

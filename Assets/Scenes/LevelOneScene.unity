@@ -6783,7 +6783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 700
   SR: {fileID: 1591676279}
-  Jumpforce: 420
+  Jumpforce: 600
 --- !u!212 &1591676279
 SpriteRenderer:
   m_ObjectHideFlags: 0

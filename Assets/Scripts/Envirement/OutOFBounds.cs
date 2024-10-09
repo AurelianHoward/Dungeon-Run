@@ -28,6 +28,7 @@ public class OutOfBounds : MonoBehaviour
             if (collider2D.tag == "Player")
             {
                 SceneManager.LoadScene(MainMenuScene);
+                Cursor.visible = true;
                 //collider2D.gameObject.GetComponent<HealthManager>().Hit(rawDamage);
                 Debug.Log("trap activated");
             }
